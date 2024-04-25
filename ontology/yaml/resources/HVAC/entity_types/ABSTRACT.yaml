@@ -6061,6 +6061,8 @@ HLSAFS:
   - high_limit_supply_air_flowrate_setpoint
   - low_limit_supply_air_flowrate_setpoint
   - supply_air_flowrate_setpoint
+  opt_uses:
+  - supply_air_flowrate_sensor
   implements:
   - CONTROL
 
