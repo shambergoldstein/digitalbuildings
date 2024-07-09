@@ -222,6 +222,21 @@ CU_SFSS2X_SFVSC2X_CHWSC_CHWDT_HTSC_SSPC_SARC_MTM:
   - SSPC
   - SARC
   - MTM
+  
+CU_SFSS_SFVSC_CHW2XSC_HTSC_SSPC_SARC_MTM_CAM:
+  guid: "dcb4ec58-c571-42f8-a585-5a7c5b8f41ea"
+  description: "Chilled water compartment unit with two fan start/stop and speed control, heating and two valve cooling (supply temp control)."
+  is_canonical: true
+  implements:
+  - CU
+  - SFSS
+  - SFVSC
+  - CHW2XSC
+  - HTSC
+  - SSPC
+  - SARC
+  - MTM
+  - CAM
 
 CU_SFSS_SFVSC_CHW2XSC_HTSC_SSPC_SARC_FDPM3X_MTM_CAM:
   guid: "d6d6cbc2-f8d3-45ea-bcf1-a075d2084726"
