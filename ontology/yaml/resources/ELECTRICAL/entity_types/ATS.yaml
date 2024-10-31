@@ -30,12 +30,12 @@ ATS_SRC1_SRC2:
   - generator_status
   - fire_alarm
 
-ATS_NONCANONICAL1:
-  guid: "3cffe780-f0e4-403e-a2bf-206010a5a384"
-  description: "Power monitoring automatic transfer switch."
-  is_canonical: false
+ATS_SPM:
+  guid: "7d1b371e-cdbe-439d-9a35-f5ace7f6dcbb"
+  description: "Automatic transfer switch with switch position monitoring."
+  is_canonical: true
   implements:
   - ATS
-  uses:
-  - power_status
-  - switch_position_mode
+  - SPM
+  opt_uses:
+  - fire_alarm
